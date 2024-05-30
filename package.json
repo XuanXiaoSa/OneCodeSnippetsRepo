@@ -1,0 +1,48 @@
+{
+  "name": "onecodesnippetsrepo",
+  "displayName": "OneCodeSnippetsRepo",
+  "description": "OneCodeSnippetsRepo",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "jsx",
+        "path": "./snippets/javascript.json"
+      },
+      {
+        "language": "vue",
+        "path": "./snippets/css.json"
+      },
+      {
+        "language": "css",
+        "path": "./snippets/css.json"
+      },
+      {
+        "language": "less",
+        "path": "./snippets/css.json"
+      },
+      {
+        "language": "sass",
+        "path": "./snippets/css.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,150 @@
+{
+    "flex的使用-上下左右居中": {
+        "prefix": ["flex", "flex-center"],
+        "body": [
+          "display: flex;",
+          "justify-content: center;",
+          "align-items: center;"
+        ],
+        "description": "flex的使用,居中"
+    },
+    "flex的使用-上下居中-左右均分弹性": {
+        "prefix": ["flex", "flex-space-between", "space-between"],
+        "body": [
+          "display: flex;",
+          "justify-content: space-between;",
+          "align-items: center;"
+        ],
+        "description": "flex的使用,上下居中-左右均分弹性"
+    },
+    "flex的使用-上下居中-左右均分": {
+        "prefix": ["flex", "flex-space-around", "space-around"],
+        "body": [
+          "display: flex;",
+          "justify-content: space-around;",
+          "align-items: center;"
+        ],
+        "description": "flex的使用,上下居中-左右均分"
+    },
+    "flex的使用-纵轴": {
+        "prefix": ["flex", "flex-direction"],
+        "body": [
+          "display: flex;",
+          "justify-content: center;",
+          "align-items: center;",
+          "flex-direction: column;"
+        ],
+        "description": "flex的使用,纵轴"
+    },
+    "background-背景图的使用": {
+        "prefix": ["background", "back", "bgi"],
+        "body": [
+            "width: 100px;",
+            "height: 100px;",
+            "background-image: url('$1');",
+            "background-size: cover;",
+            "background-repeat: no-repeat;",
+            "background-position: center center;"
+          ],
+        "description": "background-背景图的使用：background-image"
+    },
+    "position的使用": {
+        "prefix": ["position", "absolute", "pa", "pos"],
+        "body": [
+          "position: absolute;",
+          "top: 0;",
+          "left: 0;",
+          "z-index: 2;"
+        ],
+        "description": "position的使用-absolute"
+    },
+    "font的使用": {
+        "prefix": ["font", "font-size", "fs"],
+        "body": [
+          "font-family: PingFangSC, PingFang SC;",
+          "font-weight: bold;",
+          "font-size: 12px;",
+          "color: #ffffff;",
+          "line-height: 14px;",
+          "text-align: center;"
+        ],
+        "description": "font的使用-字体设置"
+    },
+    "scroll滚动条的使用": {
+        "prefix": ["scroll", "scrollbar"],
+        "body": [
+          "height: 100vh;",
+          "overflow-x: hidden;",
+          "overflow-y: auto;",
+          "// chrome 和Safari",
+          "&::-webkit-scrollbar {",
+            "  display: none;",
+            "  width: 0 !important;",
+            "  height: 0 !important;",
+            "  -webkit-appearance: none;",
+            "  background: transparent;",
+            "  color: transparent;",
+          "}"
+        ],
+        "description": "scroll滚动条的使用"
+    },
+    "before伪元素的使用": {
+        "prefix": ["::before", "before", "&::", "::"],
+        "body": [
+          "position: relative;",
+          "&::before {",
+          "  content: '';",
+          "  position: absolute;",
+          "  top: 0;",
+          "  left: 0;",
+          "  width: 20px;",
+          "  height: 20px;",
+          "  background: #FFFFFF;",
+          "}"
+        ],
+        "description": "before伪元素的使用"
+    },
+    "after伪元素的使用": {
+        "prefix": ["::after", "after", "&::", "::"],
+        "body": [
+          "position: relative;",
+          "&::after {",
+          "  content: '';",
+          "  position: absolute;",
+          "  top: 0;",
+          "  left: 0;",
+          "  width: 20px;",
+          "  height: 20px;",
+          "  background: #FFFFFF;",
+          "}"
+        ],
+        "description": "after伪元素的使用"
+    },
+    "animation伪元素的使用": {
+        "prefix": ["animation", "keyframes", "@keyframes", "@"],
+        "body": [
+          "animation: handDown 1.2s infinite;",
+          "@keyframes handDown {",
+          "  0% {",
+          "    transform: translateY(0) scale(1);",
+          "  }",
+          "",
+          "  50% {",
+          "    transform: translateY(-100px) scale(0.92);",
+          "  }",
+          "",
+          "  100% {",
+          "    transform: translateY(0) scale(1);",
+          "  }",
+          "}"
+        ],
+        "description": "animation伪元素的使用"
+    },
+    "transform伪元素的使用": {
+        "prefix": ["transform", "trans"],
+        "body": [
+          "transform: translate(0, 0) scale(1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew();"
+        ],
+        "description": "transform伪元素的使用,translate: 移动 scale: 缩放 rotateX X轴旋转 rotateY Y轴旋转 rotateZ Z轴旋转 skew 变形"
+    }
+}

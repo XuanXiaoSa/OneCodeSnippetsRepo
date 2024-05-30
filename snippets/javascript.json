@@ -1,0 +1,64 @@
+{
+  "vue3文件模板": {
+    "scope": "vue",
+    "prefix": ["vue3", "vue", "template"],
+    "body": [
+      "<template>",
+      "  <div>",
+      "  </div>",
+      "</template>",
+      "",
+      "<script lang=\"ts\" setup name=\"$1\">",
+      "import { ref, reactive } from 'vue';",
+      "",
+      "</script>",
+      "",
+      "<style lang=\"less\" scoped></style>",
+      ""
+    ],
+    "description": "vue3默认代码片段"
+  },
+  "console.log快速打印": {
+    "prefix": ["快速打印", "console", "cl", "log", "con"],
+    "body": [
+      "console.log('console 📚 --- $1 ---> result is：', JSON.stringify($1))"
+    ],
+    "description": "console.log快速打印"
+  },
+  "uniapp条件编译的使用-微信小程序": {
+    "prefix": ["#if", "#", "MP", "H5", "MP-ALIPAY", "MP-WEIXIN"],
+    "body": [
+      "// #ifdef MP-WEIXIN",
+      "// #endif"
+    ],
+    "description": "uniapp条件编译的使用-微信小程序"
+  },
+  "uniapp条件编译的使用-支付宝小程序": {
+    "prefix": ["#if", "#", "MP", "H5", "MP-ALIPAY", "MP-WEIXIN"],
+    "body": [
+      "// #ifdef MP-ALIPAY",
+      "// #endif"
+    ],
+    "description": "uniapp条件编译的使用-支付宝小程序"
+  },
+  "uniapp条件编译的使用-h5": {
+    "prefix": ["#if", "#", "MP", "H5", "MP-ALIPAY", "MP-WEIXIN"],
+    "body": [
+      "// #ifdef H5",
+      "// #endif"
+    ],
+    "description": "uniapp条件编译的使用-h5"
+  },
+  "uniapp条件编译的使用-微信小程序支付宝小程序h5": {
+    "prefix": ["#if", "#", "MP", "H5", "MP-ALIPAY", "MP-WEIXIN"],
+    "body": [
+      "// #ifdef MP-WEIXIN",
+      "// #endif",
+      "// #ifdef H5",
+      "// #endif",
+      "// #ifdef MP-ALIPAY",
+      "// #endif"
+    ],
+    "description": "uniapp条件编译的使用-微信小程序支付宝小程序h5"
+  }
+}
